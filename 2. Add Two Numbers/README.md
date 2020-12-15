@@ -10,6 +10,18 @@ Explanation: 342 + 465 = 807.
   最后当 l1和l2遍历结束，再判断进位是否为0, 以添加最后一个节点
 
 ```
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+
+
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
        
         ListNode* ret = new ListNode();
