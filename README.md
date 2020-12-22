@@ -1,2 +1,2 @@
 # algorithm
-this recode the solution of leetcode
+this record the solution of leetcode
